@@ -4,6 +4,6 @@ import sitemap from "astro-sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "http://localhost:4321",
+  site: "https://astro-poc-olive.vercel.app/",
   integrations: [sitemap()],
 });
